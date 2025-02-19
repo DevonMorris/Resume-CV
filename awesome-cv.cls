@@ -7,7 +7,7 @@
 % Authors:
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
-% 
+%
 % Devon Morris <devonmorris1992@gmail.com>
 %
 % Notes:
@@ -535,7 +535,7 @@
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{%
-  \vspace{\acvSectionTopSkip}
+  % \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
   \phantomsection
   \color{gray}\vhrulefill{0.9pt}
@@ -671,7 +671,7 @@
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{
-	\skilltypestyle{#1} & \skillsetstyle{#2} \\
+    \skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
 % Define an environment for cvitems(for cventry)
